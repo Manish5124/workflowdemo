@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
 
       - name: Compile Java file
-        run: javac HelloWorld.java
+        run: javac main.java
 
       - name: Run Java program
         run: java HelloWorld
